@@ -1,0 +1,31 @@
+@import url(styles.css);
+
+.topnav {
+    display: grid;
+}
+h1 {
+    font-size: 40px;
+    align-items: center;
+    float: right;
+}
+
+fieldset {
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #0B0A07;
+}
+
+fieldset {
+    margin: auto;
+    width: 30%;
+    border: 3px solid #05000a;
+    padding: 20px;
+}
+
+iframe#cgi-results {
+    width: 30%;
+    height: 100px;
+    border: 3px solid #0a0114;
+}

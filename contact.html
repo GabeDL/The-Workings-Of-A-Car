@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact-styles.css">
+    <title>Contact</title>
+</head>
+
+<header>
+    <div class="topnav">
+        <div class="header">
+            <div class="navbar">
+            <nav>
+                <ul>
+                    <li> <a href="index.html" target="_self" rel="noopenner noreferrer"> Home </a> </li>
+                    <li> <a href="contact.html" target="_blank" rel="noopenner noreferrer"> Contact </a> </li>
+                    <li> <a href="https://www.english-online.at/travel/cars/cars-and-how-they-work.htm#:~:text=The%20engine&text=Fuel%2C%20usually%20gasoline%20or%20petrol,rods%20that%20move%20a%20crankshaft." target="_blank" rel="noopenner noreferrer"> Functions </a> </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    
+<body>
+    <h1>Contact us should you have any questions!</h1>
+    <form method="POST" autocomplete="on" action="https://jkorpela.fi/cgi-bin/echo.cgi" target="cgi-results">
+        <fieldset>
+            <legend>Name Information</legend>
+            <label for="firstName">First Name:</label>
+            <input type="text" required id="firstName" title="Input Your First Name" placeholder="Input first name" name="firstName"><br>
+            <label for="lastName">Last Name:</label>
+            <input type="text" required id="firstName" title="Input Your Last Name" placeholder="Input last name" name="lastName">
+        </fieldset>
+        <fieldset>
+            <legend>Contact Information</legend>
+            <label for="email">Email:</label>
+            <input type="email" name="email" title="Input Your Email Address" required id="email" placeholder="Input email address"><br>
+            <label for="telephone">Phone:</label>
+            <input type="tel" name="telephone" title="Input Your Phone Number" required id="telephone" placeholder="Input phone number">
+        </fieldset>
+        <fieldset>
+            <legend>Date of Birth:</legend>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" name="dob" required id="dob"><br>
+        </fieldset>
+        <fieldset>
+            <input type="submit">
+        </fieldset>
+    </form>
+    <iframe name="cgi-results" id="cgi-results">
+</body>
+</html>
